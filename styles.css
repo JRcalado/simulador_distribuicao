@@ -22,7 +22,7 @@ body {
 }
 
 h1 {
-  color: #1d5a8b; /* Cor do título similar ao azul da Pravaler */
+  color: #000000; /* Cor do título preta */
   margin-bottom: 20px;
   font-size: 24px;
   font-weight: 700;
@@ -50,34 +50,35 @@ h1 {
 }
 
 .controls select {
-  width: 100px;
+  width: 120px;
   padding: 10px;
   border: 1px solid #ced4da;
   border-radius: 5px;
   background-color: #ffffff;
   font-size: 16px;
   color: #495057;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .btn {
   display: block;
-  width: 200px;
+  width: 250px;
   margin: 20px auto;
-  padding: 10px 20px;
-  background-color: #1d5a8b; /* Botão azul similar */
+  padding: 15px 20px;
+  background-color: #ff6f00; /* Botão laranja */
   color: white;
   text-align: center;
   text-decoration: none;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 600;
-  border-radius: 5px;
+  border-radius: 25px;
   cursor: pointer;
   border: none;
   transition: background-color 0.3s ease;
 }
 
 .btn:hover {
-  background-color: #164a6d; /* Botão azul mais escuro */
+  background-color: #e65c00; /* Botão laranja mais escuro */
 }
 
 .error-message {
@@ -109,7 +110,7 @@ td {
 }
 
 th {
-  background-color: #1d5a8b; /* Cabeçalho azul similar */
+  background-color: #ff6f00; /* Cabeçalho laranja */
   color: white;
   font-weight: 700;
 }
