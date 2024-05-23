@@ -1,0 +1,126 @@
+body {
+  font-family: "Open Sans", Arial, sans-serif;
+  background-color: #f8f9fa;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.container {
+  max-width: 1000px;
+  width: 100%;
+  padding: 40px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+h1 {
+  color: #1d5a8b; /* Cor do título similar ao azul da Pravaler */
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  padding: 0 20px;
+}
+
+.controls div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+}
+
+.controls label {
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.controls select {
+  width: 100px;
+  padding: 10px;
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+  background-color: #ffffff;
+  font-size: 16px;
+  color: #495057;
+}
+
+.btn {
+  display: block;
+  width: 200px;
+  margin: 20px auto;
+  padding: 10px 20px;
+  background-color: #1d5a8b; /* Botão azul similar */
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #164a6d; /* Botão azul mais escuro */
+}
+
+.error-message {
+  color: red;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.table-container {
+  display: flex;
+  justify-content: center;
+  overflow-y: auto;
+  margin-top: 20px;
+  max-height: 400px; /* Limitar a altura da tabela */
+  width: 100%;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+th,
+td {
+  padding: 12px;
+  border: 1px solid #dee2e6;
+  text-align: right;
+}
+
+th {
+  background-color: #1d5a8b; /* Cabeçalho azul similar */
+  color: white;
+  font-weight: 700;
+}
+
+tr:nth-child(even) {
+  background-color: #f8f9fa;
+}
+
+@media (max-width: 768px) {
+  .controls {
+    flex-direction: column;
+    padding: 0;
+  }
+}
